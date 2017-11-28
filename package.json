@@ -1,7 +1,7 @@
 {
   "name": "trumpeter",
   "version": "0.0.0-development",
-  "description": "",
+  "description": "Trump tweets in your command line",
   "main": "index.js",
   "bin": {
     "trumpeter": "build/executables/trumpeter.js"
