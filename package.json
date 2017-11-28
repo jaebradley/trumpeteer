@@ -1,0 +1,48 @@
+{
+  "name": "trumpeter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "trumpeter": "build/executables/trumpeter.js"
+  },
+  "scripts": {
+    "compile": "babel -d build/ src/ --ignore node_modules,*.test.js",
+    "codecov": "codecov",
+    "prepublishOnly": "npm run compile",
+    "lint": "eslint --ext .js .",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaebradley/trumpeter.git"
+  },
+  "author": "jae.b.bradley@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaebradley/trumpeter/issues"
+  },
+  "homepage": "https://github.com/jaebradley/trumpeter#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^4.12.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "jest": "^21.2.1"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "commander": "^2.12.1",
+    "inquirer": "^4.0.0",
+    "keytar": "^4.0.5",
+    "moment-timezone": "^0.5.14",
+    "say": "^0.14.0",
+    "twitter": "^1.7.1"
+  }
+}
