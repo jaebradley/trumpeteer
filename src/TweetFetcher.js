@@ -26,13 +26,9 @@ async function getTweet(id) {
   });
 }
 
-const getTweetId = tweetURL => (
-  tweetURL.match(/\/status\/(\d+)/)[1]
-);
+const getTweetId = tweetURL => (tweetURL.match(/\/status\/(\d+)/)[1]);
 
-const getTwitterPosts = posts => (
-  posts.filter(post => post.data.domain === 'twitter.com')
-);
+const getTwitterPosts = posts => (posts.filter(post => post.data.domain === 'twitter.com'));
 
 async function getRandomTweet() {
   const data = await getTrumpCriticizesTrumpPostsData();
