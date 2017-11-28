@@ -1,10 +1,10 @@
 {
-  "name": "trumpeter",
+  "name": "trumpeteer",
   "version": "0.0.0-development",
   "description": "Trump tweets in your command line",
   "main": "index.js",
   "bin": {
-    "trumpeter": "build/executables/trumpeter.js"
+    "trumpeteer": "build/executables/trumpeteer.js"
   },
   "scripts": {
     "codecov": "codecov",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jaebradley/trumpeter.git"
+    "url": "git+https://github.com/jaebradley/trumpeteer.git"
   },
   "keywords": [
     "trump",
@@ -28,9 +28,9 @@
   "author": "jae.b.bradley@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jaebradley/trumpeter/issues"
+    "url": "https://github.com/jaebradley/trumpeteer/issues"
   },
-  "homepage": "https://github.com/jaebradley/trumpeter#readme",
+  "homepage": "https://github.com/jaebradley/trumpeteer#readme",
   "jest": {
     "testEnvironment": "node"
   },

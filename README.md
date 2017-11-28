@@ -1,11 +1,11 @@
-# Trumpeter
+# Trumpeteer
 
 ## Introduction
 Get the worst of [`@realDonaldTrump`](https://twitter.com/realDonaldTrump) in your command line (and in your ears).
 
 ## Install
 ```bash
-npm install trumpeter -g
+npm install trumpeteer -g
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ In order to read tweets, you need a `Consumer Key`, `Consumer Secret`, `Access T
 You can get that credential information by creating a [Twitter App](https://apps.twitter.com/).
 
 ```bash
-trumpeter setup
+trumpeteer setup
 ```
 
 The `setup` command will look something like
@@ -26,7 +26,7 @@ The `setup` command will look something like
 ### Step 2: Fetch A Random Tweet
 
 ```bash
-trumpeter random
+trumpeteer random
 ```
 
 The `random` command will look something like
