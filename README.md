@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/jaebradley/trumpeter.svg?branch=master)](https://travis-ci.org/jaebradley/trumpeter)
+[![Build Status](https://travis-ci.org/jaebradley/trumpeteer.svg?branch=master)](https://travis-ci.org/jaebradley/trumpeteer)
 [![codecov](https://codecov.io/gh/jaebradley/trumpeteer/branch/master/graph/badge.svg)](https://codecov.io/gh/jaebradley/trumpeteer)
 [![npm_downloads](https://img.shields.io/npm/dt/trumpeteer.svg)](https://www.npmjs.com/package/trumpeteer)
 [![npm](https://img.shields.io/npm/v/trumpeteer.svg)](https://www.npmjs.com/package/trumpeteer)
