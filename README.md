@@ -38,7 +38,7 @@ It's pretty simple:
 
 1. I cheat by using the [`TrumpCriticizesTrump` subreddit](https://www.reddit.com/r/TrumpCriticizesTrump) to essentially curate tweets
 2. After filtering through the "top" Twitter posts
-  * I pick one at random
-  * Fetch metadata about the tweet from the Twitter API
-  * Log the tweet's text to the console
-  * "Play" the tweet's text using a text-to-speech API
+    * I pick one at random
+    * Fetch metadata about the tweet from the Twitter API
+    * Log the tweet's text to the console
+    * "Play" the tweet's text using a text-to-speech API
