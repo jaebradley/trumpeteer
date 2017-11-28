@@ -1,3 +1,11 @@
+[![Build Status](https://travis-ci.org/jaebradley/trumpeter.svg?branch=master)](https://travis-ci.org/jaebradley/trumpeter)
+[![codecov](https://codecov.io/gh/jaebradley/trumpeteer/branch/master/graph/badge.svg)](https://codecov.io/gh/jaebradley/trumpeteer)
+[![npm_downloads](https://img.shields.io/npm/dt/trumpeteer.svg)](https://www.npmjs.com/package/trumpeteer)
+[![npm](https://img.shields.io/npm/v/trumpeteer.svg)](https://www.npmjs.com/package/trumpeteer)
+[![GitHub release](https://img.shields.io/github/release/jaebradley/trumpeteer.svg)](https://github.com/jaebradley/trumpeteer/releases)
+[![license](https://img.shields.io/github/license/jaebradley/trumpeteer.svg)]()
+
+
 # Trumpeteer
 
 ## Introduction
@@ -23,7 +31,9 @@ trumpeteer setup
 The `setup` command will look something like
 ![alt-text](https://imgur.com/F4zFPnG.png)
 
-### Step 2: Fetch A Random Tweet
+`trumpeteer` uses [`node-keytar`](https://github.com/atom/node-keytar) to securely save the credential information (for example, using keychain for OSX).
+
+### Step 2: Fetch (and Play) A Random Tweet
 
 ```bash
 trumpeteer random
@@ -31,6 +41,8 @@ trumpeteer random
 
 The `random` command will look something like
 ![alt-text](https://imgur.com/maZodWc.png)
+
+`trumpeteer` uses [the `say` package](https://github.com/marak/say.js/) to output the tweet's text as audio.
 
 ## How Does It Work
 
