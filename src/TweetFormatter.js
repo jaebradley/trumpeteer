@@ -6,10 +6,10 @@ const formatCreatedAt = createdAt => (
     .format('LLL z')
 );
 
-const generateTweetURL = id => (`https://twitter.com/realDonaldTrump/${id}`);
+const generateTweetURL = id => (`https://twitter.com/realDonaldTrump/status/${id}`);
 
 const formatTweet = tweet => (
-  `${tweet.full_text}\n${formatCreatedAt(tweet.created_at)}\nLink: ${generateTweetURL(tweet.id)}`
+  `${tweet.full_text}\n${formatCreatedAt(tweet.created_at)}\nLink: ${generateTweetURL(tweet.id_str)}`
 );
 
 export {
