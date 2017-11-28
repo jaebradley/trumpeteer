@@ -31,11 +31,11 @@ async function saveTwitterCredentials() {
 }
 
 async function saveAnswer(key, value) {
-  return keytar.setPassword('Trumpeter', key, value);
+  return keytar.setPassword('Trumpeteer', key, value);
 }
 
 async function getCredential(key) {
-  return keytar.getPassword('Trumpeter', key);
+  return keytar.getPassword('Trumpeteer', key);
 }
 
 async function isMissingCredential() {
