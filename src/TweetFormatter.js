@@ -1,19 +1,17 @@
 import moment from 'moment-timezone';
 
-const formatCreatedAt = createdAt => (
-  moment(new Date(createdAt))
-    .tz(moment.tz.guess())
-    .format('LLL z')
-);
+class TweetFormatter {
+  static formatCreatedAt(createdAt) {
+    return moment(new Date(createdAt))
+      .tz(moment.tz.guess())
+      .format('LLL z');
+  }
 
-const generateTweetURL = id => (`https://twitter.com/realDonaldTrump/status/${id}`);
+  static generateTweetURL(id) { return `https://twitter.com/realDonaldTrump/status/${id}`; }
 
-const formatTweet = tweet => (
-  `${tweet.full_text}\n${formatCreatedAt(tweet.created_at)}\nLink: ${generateTweetURL(tweet.id_str)}`
-);
+  static formatTweet(tweet) {
+    return `${tweet.full_text}\n${TweetFormatter.formatCreatedAt(tweet.created_at)}\nLink: ${TweetFormatter.generateTweetURL(tweet.id_str)}`;
+  }
+}
 
-export {
-  formatTweet,
-  generateTweetURL,
-  formatCreatedAt,
-};
+export default TweetFormatter;
