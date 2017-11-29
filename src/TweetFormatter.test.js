@@ -17,7 +17,7 @@ describe('TweetFormatter', () => {
     it('should return valid parsed value for valid date string', () => {
       moment.tz.guess = jest.fn();
       moment.tz.guess.mockReturnValue('UTC');
-      expect(TweetFormatter.formatCreatedAt('11/28/2017')).toEqual('November 28, 2017 5:00 AM UTC');
+      expect(TweetFormatter.formatCreatedAt(0)).toEqual('January 1, 1970 12:00 AM UTC');
     });
   });
 
