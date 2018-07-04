@@ -3,7 +3,7 @@
 [![npm_downloads](https://img.shields.io/npm/dt/trumpeteer.svg)](https://www.npmjs.com/package/trumpeteer)
 [![npm](https://img.shields.io/npm/v/trumpeteer.svg)](https://www.npmjs.com/package/trumpeteer)
 [![GitHub release](https://img.shields.io/github/release/jaebradley/trumpeteer.svg)](https://github.com/jaebradley/trumpeteer/releases)
-[![license](https://img.shields.io/github/license/jaebradley/trumpeteer.svg)]()
+[![license](https://img.shields.io/github/license/jaebradley/trumpeteer.svg)]() [![Greenkeeper badge](https://badges.greenkeeper.io/jaebradley/trumpeteer.svg)](https://greenkeeper.io/)
 
 
 # Trumpeteer
