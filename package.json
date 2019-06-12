@@ -61,7 +61,7 @@
     "inquirer": "^6.0.0",
     "keytar": "^4.0.5",
     "moment-timezone": "^0.5.14",
-    "say": "^0.15.0",
+    "say": "^0.16.0",
     "twitter": "^1.7.1"
   }
 }
