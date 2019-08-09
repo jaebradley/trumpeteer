@@ -57,7 +57,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "babel-plugin-transform-runtime": "^6.23.0",
-    "commander": "^2.12.1",
+    "commander": "^3.0.0",
     "inquirer": "^6.0.0",
     "keytar": "^4.0.5",
     "moment-timezone": "^0.5.14",
