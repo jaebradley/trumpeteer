@@ -59,7 +59,7 @@
     "babel-plugin-transform-runtime": "^6.23.0",
     "commander": "^2.12.1",
     "inquirer": "^6.0.0",
-    "keytar": "^4.0.5",
+    "keytar": "^5.0.0",
     "moment-timezone": "^0.5.14",
     "say": "^0.15.0",
     "twitter": "^1.7.1"
