@@ -1,4 +1,4 @@
-const parseReadableTweet = text => (
+const parseReadableTweet = (text) => (
   text.replace(/(?:https?|ftp):\/\/[\n\S]+/g, '')
 );
 

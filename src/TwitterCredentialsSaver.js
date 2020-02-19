@@ -6,25 +6,25 @@ async function saveTwitterCredentials() {
     {
       name: 'twitterConsumerKey',
       message: 'Input your Twitter Consumer Key',
-      validate: str => str.length !== 0,
+      validate: (str) => str.length !== 0,
       type: 'password',
     },
     {
       name: 'twitterConsumerSecret',
       message: 'Input your Twitter Consumer Secret',
-      validate: str => str.length !== 0,
+      validate: (str) => str.length !== 0,
       type: 'password',
     },
     {
       name: 'twitterAccessTokenKey',
       message: 'Input your Twitter Access Token Key',
-      validate: str => str.length !== 0,
+      validate: (str) => str.length !== 0,
       type: 'password',
     },
     {
       name: 'twitterAccessTokenSecret',
       message: 'Input your Twitter Access Token Secret',
-      validate: str => str.length !== 0,
+      validate: (str) => str.length !== 0,
       type: 'password',
     },
   ]);

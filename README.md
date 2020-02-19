@@ -1,9 +1,9 @@
+[![Greenkeeper badge](https://badges.greenkeeper.io/jaebradley/trumpeteer.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/jaebradley/trumpeteer.svg?branch=master)](https://travis-ci.org/jaebradley/trumpeteer)
 [![codecov](https://codecov.io/gh/jaebradley/trumpeteer/branch/master/graph/badge.svg)](https://codecov.io/gh/jaebradley/trumpeteer)
-[![npm_downloads](https://img.shields.io/npm/dt/trumpeteer.svg)](https://www.npmjs.com/package/trumpeteer)
 [![npm](https://img.shields.io/npm/v/trumpeteer.svg)](https://www.npmjs.com/package/trumpeteer)
-[![GitHub release](https://img.shields.io/github/release/jaebradley/trumpeteer.svg)](https://github.com/jaebradley/trumpeteer/releases)
-[![license](https://img.shields.io/github/license/jaebradley/trumpeteer.svg)]() [![Greenkeeper badge](https://badges.greenkeeper.io/jaebradley/trumpeteer.svg)](https://greenkeeper.io/)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/trumpeteer)
+[![npm-total-downloads](https://img.shields.io/npm/dt/trumpeteer.svg)](https://www.npmjs.com/package/trumpeteer)
 
 
 # Trumpeteer
