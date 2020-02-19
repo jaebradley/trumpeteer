@@ -19,7 +19,7 @@ async function executeCommand() {
     getRandomTweet().then((tweet) => {
       console.log(TweetFormatter.formatTweet(tweet));
       say.speak(parseReadableTweet(tweet.full_text), 'Alex', 1.1);
-    }).catch(e => console.error(formattedErrorMessage(e)));
+    }).catch((e) => console.error(formattedErrorMessage(e)));
   } catch (e) {
     console.error(formattedErrorMessage(e));
   }
