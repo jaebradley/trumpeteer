@@ -58,7 +58,7 @@
     "commander": "^5.0.0",
     "inquirer": "^7.0.4",
     "keytar": "^6.0.0",
-    "moment-timezone": "^0.5.27",
+    "moment-timezone": "^0.5.31",
     "say": "^0.16.0",
     "twitter": "^1.7.1"
   }
